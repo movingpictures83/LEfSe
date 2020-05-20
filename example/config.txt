@@ -1,0 +1,2 @@
+Prefix plugins/LEfSe/example
+Plugin LEfSe inputfile parameters.txt outputfile hmp_aerobiosis_small
