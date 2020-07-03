@@ -2,9 +2,8 @@
 # Language: Python
 # Input: TXT (keyword-value pairs)
 # Output: prefix
-# Tested with: PluMA 1.0, Python 3.6
+# Tested with: PluMA 1.1, Python 3.6
 
-# LEfSe
 PluMA plugin for biomarker discovery using Linear discriminant analysis Effect Size (LEfSe) (Segata et al, 2011).
 
 The plugin expects as input a text file of keyword, value pairs.  The keywords, and their corresponding definitions, are:
