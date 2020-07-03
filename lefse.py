@@ -7,10 +7,11 @@ import numpy
 
 def init():
     lrand.seed(1982)
+    robjects.r('print(version)')
     robjects.r('library(splines)')
     robjects.r('library(stats4)')
     robjects.r('library(survival)')
-    robjects.r('library(mvtnorm)')
+    #robjects.r('library(mvtnorm)')
     robjects.r('library(modeltools)')
     robjects.r('library(coin)')
     robjects.r('library(MASS)')
@@ -203,6 +204,7 @@ def test_lda_r(cls,feats,cl_sl,boots,fract_sample,lda_th,tol_min,nlogs):
         for p in pairs:
             robjects.globalenv["rand_s"] = robjects.IntVector(rand_s)
             robjects.globalenv["sub_d"] = robjects.r('d[rand_s,]')
+            #print(f)
             z = robjects.r('z <- suppressWarnings(lda(as.formula('+f+'),data=sub_d,tol='+str(tol_min)+'))')
             robjects.r('w <- z$scaling[,1]')
             robjects.r('w.unit <- w/sqrt(sum(w^2))')
