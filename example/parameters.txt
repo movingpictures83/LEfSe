@@ -1,5 +1,5 @@
-inputfile	plugins/LEfSe/example/hmp_aerobiosis_small.txt
+inputfile	hmp_aerobiosis_small.txt
 class	1
 subclass	2
 subject	3
-outputdir	plugins/LEfSe/example/biomarkers_raw_images
+outputdir	biomarkers_raw_images
