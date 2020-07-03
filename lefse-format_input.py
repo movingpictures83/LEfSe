@@ -148,7 +148,7 @@ def sort_by_cl(data,n,c,s,u):
 
     if n == 2:
         if s is None:
-            data.sort(sort_lines2u)
+            data.sort(key=cmp_to_key(sort_lines2u))
         else:
             data.sort(sort_lines2s)
 
@@ -218,6 +218,7 @@ def get_class_slices(data):
 def numerical_values(feats,norm):
     mm = []
     for k,v in feats.items():
+        #print("FEATURE "+str(k)+": "+str(len(v)))
         feats[k] = [float(val) for val in v]
     if norm < 0.0: return feats
     #tr = zip(*(feats.values()))
@@ -235,7 +236,14 @@ def numerical_values(feats,norm):
     for i,m in enumerate(mul):
         if m == 0: mul[i] = 0.0
         else: mul[i] = float(norm) / m
+    #for i,val in enumerate(v):
+    #   print(i)
+    #   print(val)
+    #   print(mul[i])
+    #print(len(feats))
     for k,v in feats.items():
+        #print(len(v))
+        #print(v)
         feats[k] = [val*mul[i] for i,val in enumerate(v)]
         if numpy.mean(feats[k]) and (numpy.std(feats[k])/numpy.mean(feats[k])) < 1e-10:
             feats[k] = [ float(round(kv*1e6)/1e6) for kv in feats[k]]
@@ -268,6 +276,8 @@ def add_missing_levels2(ff):
             if added:
                 break
 
+    #print(ff)
+    #x = input()
     return ff
 
 
@@ -299,7 +309,7 @@ def modify_feature_names(fn):
 
     for v in ["/",r'\(',r'\)',r'-',r'\+',r'=',r'{',r'}',r'\[',r'\]',
               r',',r'\.',r';',r':',r'\?',r'\<',r'\>',r'\.',r'\,']:
-        ret = [re.sub(v,"_",f) for f in ret]
+        ret = [re.sub(v,"__",f) for f in ret]
 
     for v in ["\|"]:
         ret = [re.sub(v,".",f) for f in ret]
@@ -487,7 +497,8 @@ if  __name__ == '__main__':
 #   data = remove_missing(data,params['missing_p'])
     cls = {}
     cls_i = [(params['class']-1, 'class')]
-    if params['subclass'] > 0: cls_i.append((params['subclass']-1, 'subclass'))
+    #if params['subclass'] > 0: cls_i.append((params['subclass']-1, 'subclass'))
+    if params['subclass'] != None: cls_i.append((params['subclass']-1, 'subclass'))
     if params['subject'] > 0: cls_i.append((params['subject']-1, 'subject'))
     #print(cls_i)
     cls_i.sort()
@@ -514,7 +525,8 @@ if  __name__ == '__main__':
     #cls[v[0]] = data.pop(v[1])[1:]
     #print(cls)
     #exit(1)
-    if not params['subclass'] > 0: cls['subclass'] = [str(cl)+"_subcl" for cl in cls['class']]
+    #if not params['subclass'] > 0: cls['subclass'] = [str(cl)+"_subcl" for cl in cls['class']]
+    if params['subclass'] == None: cls['subclass'] = [str(cl)+"_subcl" for cl in cls['class']]
     cls['subclass'] = rename_same_subcl(cls['class'],cls['subclass'])
     #print(cls)
     #print(list(cls.values()))
@@ -533,6 +545,8 @@ if  __name__ == '__main__':
     #exit(1)
     #print(data)
     #exit(1)
+    #print(data[0])
+    #x = input()
     feats = {}
     for i in range(len(data[0])):
        feats[data[0][i]] = []
@@ -543,7 +557,6 @@ if  __name__ == '__main__':
     #print(feats)
     #exit(1)
     feats = add_missing_levels(feats)
-
     feats = numerical_values(feats,params['norm_v'])
     #print(feats)
     #exit(1)
