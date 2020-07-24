@@ -11,6 +11,8 @@ class LEfSePlugin:
       self.parameters['inputfile'] = PyPluMA.prefix()+"/"+self.parameters['inputfile']
       print(self.parameters['inputfile'])
       self.parameters['outputdir'] = PyPluMA.prefix()+"/"+self.parameters['outputdir']
+      if (os.path.exists(self.parameters['outputdir'])):
+         os.system("rm -r "+self.parameters['outputdir'])
 
    def run(self):
       os.system('./plugins/LEfSe/lefse-format_input.py '+self.parameters['inputfile']+' tmp.in -c '+self.parameters['class']+' -s '+self.parameters['subclass']+' -u '+self.parameters['subject']+' -f c -o 1000000')
