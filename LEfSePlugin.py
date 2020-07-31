@@ -20,7 +20,7 @@ class LEfSePlugin:
 
    def output(self, filename):
       os.system('./plugins/LEfSe/run_lefse.py tmp.in '+filename+'.res')
-      os.system('./plugins/LEfSe/lefse-plot_res.py '+filename+'.res'+' '+filename+".bargraph.png")
+      os.system('./plugins/LEfSe/lefse-plot_res.py '+filename+'.res'+' '+filename+".bargraph.png "+filename+".csv --report_features")
       os.system('./plugins/LEfSe/lefse-plot_cladogram.py '+filename+'.res'+' '+filename+".cladogram.png --format png")
       if (not os.path.exists(self.parameters['outputdir'])):
          os.system('mkdir '+self.parameters['outputdir']) 

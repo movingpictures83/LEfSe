@@ -15,6 +15,7 @@ def read_params(args):
     parser = argparse.ArgumentParser(description='Plot results')
     parser.add_argument('input_file', metavar='INPUT_FILE', type=str, help="tab delimited input file")
     parser.add_argument('output_file', metavar='OUTPUT_FILE', type=str, help="the file for the output image")
+    parser.add_argument('csv_file', metavar='CSV_FILE', type=str, help="table of LDA values")
     parser.add_argument('--feature_font_size', dest="feature_font_size", type=int, default=7, help="the file for the output image")
     parser.add_argument('--format', dest="format", choices=["png","svg","pdf"], default='png', type=str, help="the format for the output file")
     parser.add_argument('--dpi',dest="dpi", type=int, default=72)
@@ -80,7 +81,9 @@ def plot_histo_hor(path,params,data,bcl,report_features):
     out_data = defaultdict(list) # keep track of which OTUs result in the plot
     for i,v in enumerate(data['rows']):
         if report_features:
-            otu = v[0].split('.')[7].replace('_','.') # string replace retains format New.ReferenceOTUxxx
+            tmp = v[0].split('.')
+            otu = tmp[len(tmp)-1]
+            #otu = v[0].split('.')[7].replace('_','.') # string replace retains format New.ReferenceOTUxxx
             score = v[3]
             otu_class = v[2]
             out_data[otu] = [score, otu_class]
@@ -93,10 +96,11 @@ def plot_histo_hor(path,params,data,bcl,report_features):
         vv = fabs(float(v[3])) * (m*(indcl*2-1)) if bcl else fabs(float(v[3]))
         ax.barh(pos[i],vv, align='center', color=col, label=lab, height=0.8, edgecolor=params['fore_color'])
     mv = max([abs(float(v[3])) for v in data['rows']])  
-    if report_features:
-        print('OTU\tLDA_score\tCLass')
+    if True:
+        filestuff =open(params['csv_file'], 'w')
+        filestuff.write('OTU,LDA_score,CLass\n')
         for i in out_data:
-            print(str(i)+"\t"+str(out_data[i][0])+"\t"+str(out_data[i][1]))
+            filestuff.write(str(i)+","+str(out_data[i][0])+","+str(out_data[i][1])+"\n")
     for i,r in enumerate(data['rows']):
         indcl = cls.index(data['rows'][i][2])
         if params['n_scl'] < 0: rr = r[0]
