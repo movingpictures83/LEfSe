@@ -17,7 +17,8 @@ The inputfile of samples and abundances is expected to be in matrix format, with
 
 The plugin will output several files, all starting with (prefix):
 
-(prefix).res: Output of LEfSe (textual)
+(prefix).res: Output of LEfSe (textual, list)
+(prefix).csv: Output of LEfSe (comma-separated value)
 (prefix).bargraph.png: Bargraph image
 (prefix).cladogram.png: Cladogram image
 
