@@ -33,7 +33,10 @@ def test(file1, file2):
           elif (isnumber(contents1[j])):
               f1 = float(contents1[j])
               f2 = float(contents2[j])
-              if ((f2-f1)/f1 > 0.01):
+              if (f1 == 0):
+                  if (f2 != 0):
+                     return False
+              elif ((f2-f1)/f1 > 0.01):
                   return False
           else:
               if (contents1[j] != contents2[j]):
