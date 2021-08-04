@@ -15,7 +15,7 @@ class LEfSePlugin:
          os.system("rm -r "+self.parameters['outputdir'])
 
    def run(self):
-      os.system('./plugins/LEfSe/lefse-format_input.py '+self.parameters['inputfile']+' tmp.in -c '+self.parameters['class']+' -s '+self.parameters['subclass']+' -u '+self.parameters['subject']+' -f c -o 1000000')
+      os.system('./plugins/LEfSe/lefse-format_input.py '+self.parameters['inputfile']+' tmp.in -c '+self.parameters['class']+' -s '+self.parameters['subclass']+' -u '+self.parameters['subject']+' -f c')# -o 1000000')
       #subprocess.call('plugins/LEfSe/run_lefse.py', 'tmp.in', 'output.lefse.res')
 
    def output(self, filename):
@@ -25,5 +25,5 @@ class LEfSePlugin:
       if (not os.path.exists(self.parameters['outputdir'])):
          os.system('mkdir '+self.parameters['outputdir']) 
       os.system('./plugins/LEfSe/lefse-plot_features.py tmp.in '+filename+".res"+' '+self.parameters['outputdir']+"/")
-      os.system('rm tmp.in')
+      #os.system('rm tmp.in')
       #subprocess.call('plugins/LEfSe/lefse-plot_features.py', 'tmp.in', 'output.lefse.res', self.parameters['outputdir'])

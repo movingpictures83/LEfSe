@@ -10,15 +10,15 @@ def read_params(args):
                 help="the output file containing the data for the visualization module")
     parser.add_argument('-o',dest="out_text_file", metavar='str', type=str, default="",
                 help="set the file for exporting the result (only concise textual form)")
-    parser.add_argument('-a',dest="anova_alpha", metavar='float', type=float, default=0.05,
+    parser.add_argument('-a',dest="anova_alpha", metavar='float', type=float, default=1,
                 help="set the alpha value for the Anova test (default 0.05)")
     parser.add_argument('-w',dest="wilcoxon_alpha", metavar='float', type=float, default=0.05,
                 help="set the alpha value for the Wilcoxon test (default 0.05)")
-    parser.add_argument('-l',dest="lda_abs_th", metavar='float', type=float, default=2.0,
+    parser.add_argument('-l',dest="lda_abs_th", metavar='float', type=float, default=0.0,
                 help="set the threshold on the absolute value of the logarithmic LDA score (default 2.0)")
     parser.add_argument('--nlogs',dest="nlogs", metavar='int', type=int, default=3,
         help="max log ingluence of LDA coeff")
-    parser.add_argument('--verbose',dest="verbose", metavar='int', choices=[0,1], type=int, default=0,
+    parser.add_argument('--verbose',dest="verbose", metavar='int', choices=[0,1], type=int, default=1,
         help="verbose execution (default 0)")
     parser.add_argument('--wilc',dest="wilc", metavar='int', choices=[0,1], type=int, default=1,
         help="wheter to perform the Wicoxon step (default 1)")
