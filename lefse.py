@@ -234,7 +234,8 @@ def test_lda_r(cls,feats,cl_sl,boots,fract_sample,lda_th,tol_min,nlogs):
 
     for k in fk:
         m = max([numpy.mean([means[k][kk][p] for kk in range(boots)]) for p in range(len(pairs))])
-        res[k] = math.copysign(1.0,m)*math.log(math.fabs(m),10)#1.0+math.fabs(m),10)
+        res[k] = math.copysign(1.0,m)*math.log(math.fabs(m),10)#
+        #res[k] = math.copysign(1.0,m)*math.log(1.0+math.fabs(m),10)
 
     return res,dict([(k,x) for k,x in res.items() if math.fabs(x) > lda_th])
 
