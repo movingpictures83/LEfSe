@@ -15,6 +15,8 @@ class LEfSePlugin:
          os.system("rm -r "+self.parameters['outputdir'])
       if ('wilcoxon_alpha' not in self.parameters):
           self.parameters['wilcoxon_alpha'] = 0.05
+      if ('anova_alpha' not in self.parameters):
+          self.parameters['anova_alpha'] = 0.05
       if ('lda_abs_th' not in self.parameters):
           self.parameters['lda_abs_th'] = 0
 
@@ -23,7 +25,7 @@ class LEfSePlugin:
       #subprocess.call('plugins/LEfSe/run_lefse.py', 'tmp.in', 'output.lefse.res')
 
    def output(self, filename):
-      os.system('./plugins/LEfSe/run_lefse.py tmp.in '+filename+'.res '+'-w '+str(self.parameters['wilcoxon_alpha'])+' -l '+str(self.parameters['lda_abs_th']))
+      os.system('./plugins/LEfSe/run_lefse.py tmp.in '+filename+'.res '+'-a '+str(self.parameters['anova_alpha'])+' -w '+str(self.parameters['wilcoxon_alpha'])+' -l '+str(self.parameters['lda_abs_th']))
       os.system('./plugins/LEfSe/lefse-plot_res.py '+filename+'.res'+' '+filename+".bargraph.png "+filename+".csv --report_features")
       os.system('./plugins/LEfSe/lefse-plot_cladogram.py '+filename+'.res'+' '+filename+".cladogram.png --format png")
       if (not os.path.exists(self.parameters['outputdir'])):
