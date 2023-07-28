@@ -62,6 +62,8 @@ def transpose(data):
     for k in range(j):
        retval.append([])
        for m in range(i):
+          #print(len(data[m]))
+          #print(data[m])
           retval[k].append(data[m][k])
     return retval
     #return zip(*data)

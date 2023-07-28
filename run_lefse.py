@@ -10,7 +10,7 @@ def read_params(args):
                 help="the output file containing the data for the visualization module")
     parser.add_argument('-o',dest="out_text_file", metavar='str', type=str, default="",
                 help="set the file for exporting the result (only concise textual form)")
-    parser.add_argument('-a',dest="anova_alpha", metavar='float', type=float, default=1,
+    parser.add_argument('-a',dest="anova_alpha", metavar='float', type=float, default=0.05,
                 help="set the alpha value for the Anova test (default 0.05)")
     parser.add_argument('-w',dest="wilcoxon_alpha", metavar='float', type=float, default=0.05,
                 help="set the alpha value for the Wilcoxon test (default 0.05)")
@@ -38,7 +38,7 @@ def read_params(args):
                 help="set the multiple testing correction options. 0 no correction (more strict, default), 1 correction for independent comparisons, 2 correction for independent comparison")
 #       parser.add_argument('-m',dest="m_boots", type=int, default=5,
 #               help="minimum cardinality of classes in each bootstrapping iteration (default 5)")
-    parser.add_argument('--min_c',dest="min_c", metavar='int', type=int, default=10,
+    parser.add_argument('--min_c',dest="min_c", metavar='int', type=int, default=5,
                 help="minimum number of samples per subclass for performing wilcoxon test (default 10)")
     parser.add_argument('-t',dest="title", metavar='str', type=str, default="",
                 help="set the title of the analysis (default input file without extension)")

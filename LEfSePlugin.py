@@ -18,9 +18,10 @@ class LEfSePlugin:
       if ('anova_alpha' not in self.parameters):
           self.parameters['anova_alpha'] = 0.05
       if ('lda_abs_th' not in self.parameters):
-          self.parameters['lda_abs_th'] = 0
+          self.parameters['lda_abs_th'] = 2
 
    def run(self):
+      print(self.parameters)
       os.system('./plugins/LEfSe/lefse-format_input.py '+self.parameters['inputfile']+' tmp.in -c '+self.parameters['class']+' -s '+self.parameters['subclass']+' -u '+self.parameters['subject']+' -f c')# -o 1000000')
       #subprocess.call('plugins/LEfSe/run_lefse.py', 'tmp.in', 'output.lefse.res')
 
