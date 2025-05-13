@@ -17,14 +17,14 @@ Bacteria.Acidobacteria.Holophagae	0.0			-
 Bacteria.Acidobacteria.Holophagae.Holophagales.Holophagaceae	0.0			-
 Bacteria.Acidobacteria.Holophagae.Holophagales.Holophagaceae.Geothrix	0.0			-
 Bacteria.Acidobacteria.Holophagae.Holophagales.Holophagaceae.Holophaga	0.0			-
-Bacteria.Actinobacteria.Actinobacteria	0.0	High_O2	-0.47825360575144793	4.148228689669985e-09
+Bacteria.Actinobacteria.Actinobacteria	0.0			4.148228689669985e-09
 Bacteria.Actinobacteria.Actinobacteria.Acidimicrobiales	0.0			-
 Bacteria.Actinobacteria.Actinobacteria.Acidimicrobiales.Acidimicrobiaceae	0.0			-
 Bacteria.Actinobacteria.Actinobacteria.Acidimicrobiales.Acidimicrobiaceae.Ferrithrix	0.0			-
 Bacteria.Actinobacteria.Actinobacteria.Acidimicrobiales.Iamiaceae.Iamia	0.0			-
 Bacteria.Actinobacteria.Actinobacteria.Acidimicrobidae_incertae_sedis.Ilumatobacter	0.0			-
-Bacteria.Actinobacteria.Actinobacteria.Actinomycetales	0.0	High_O2	-0.4788475616982646	3.8412518054506664e-09
-Bacteria.Actinobacteria.Actinobacteria.Actinomycetales.Actinomycetaceae	0.0	Mid_O2	-1.8485806924825008	4.095437367771214e-05
+Bacteria.Actinobacteria.Actinobacteria.Actinomycetales	0.0			3.8412518054506664e-09
+Bacteria.Actinobacteria.Actinobacteria.Actinomycetales.Actinomycetaceae	0.0			-
 Bacteria.Actinobacteria.Actinobacteria.Actinomycetales.Actinomycetaceae.Actinobaculum	0.0			-
 Bacteria.Actinobacteria.Actinobacteria.Actinomycetales.Actinomycetaceae.Actinomyces	0.0			-
 Bacteria.Actinobacteria.Actinobacteria.Actinomycetales.Actinomycetaceae.Arcanobacterium	0.0			-
@@ -42,8 +42,8 @@ Bacteria.Actinobacteria.Actinobacteria.Actinomycetales.Cellulomonadaceae	0.0			-
 Bacteria.Actinobacteria.Actinobacteria.Actinomycetales.Cellulomonadaceae.Actinotalea	0.0			-
 Bacteria.Actinobacteria.Actinobacteria.Actinomycetales.Cellulomonadaceae.Cellulomonas	0.0			-
 Bacteria.Actinobacteria.Actinobacteria.Actinomycetales.Cellulomonadaceae.Oerskovia	0.0			-
-Bacteria.Actinobacteria.Actinobacteria.Actinomycetales.Corynebacteriaceae	0.0	High_O2	-1.0652588244388332	1.9448520019630706e-06
-Bacteria.Actinobacteria.Actinobacteria.Actinomycetales.Corynebacteriaceae.Corynebacterium	0.0	High_O2	-1.0653715913498345	1.9448520019630706e-06
+Bacteria.Actinobacteria.Actinobacteria.Actinomycetales.Corynebacteriaceae	0.0			-
+Bacteria.Actinobacteria.Actinobacteria.Actinomycetales.Corynebacteriaceae.Corynebacterium	0.0			-
 Bacteria.Actinobacteria.Actinobacteria.Actinomycetales.Corynebacteriaceae.Turicella	0.0			-
 Bacteria.Actinobacteria.Actinobacteria.Actinomycetales.Cryptosporangiaceae.Cryptosporangium	0.0			-
 Bacteria.Actinobacteria.Actinobacteria.Actinomycetales.Dermabacteraceae	0.0			-
@@ -133,13 +133,13 @@ Bacteria.Actinobacteria.Actinobacteria.Actinomycetales.Promicromonosporaceae	0.0
 Bacteria.Actinobacteria.Actinobacteria.Actinomycetales.Promicromonosporaceae.Cellulosimicrobium	0.0			-
 Bacteria.Actinobacteria.Actinobacteria.Actinomycetales.Promicromonosporaceae.Isoptericola	0.0			-
 Bacteria.Actinobacteria.Actinobacteria.Actinomycetales.Promicromonosporaceae.Promicromonospora	0.0			-
-Bacteria.Actinobacteria.Actinobacteria.Actinomycetales.Propionibacteriaceae	0.0	High_O2	-0.6227205814205657	9.483488450996154e-10
+Bacteria.Actinobacteria.Actinobacteria.Actinomycetales.Propionibacteriaceae	0.0			9.483488450996154e-10
 Bacteria.Actinobacteria.Actinobacteria.Actinomycetales.Propionibacteriaceae.Brooklawnia	0.0			-
 Bacteria.Actinobacteria.Actinobacteria.Actinomycetales.Propionibacteriaceae.Friedmanniella	0.0			-
 Bacteria.Actinobacteria.Actinobacteria.Actinomycetales.Propionibacteriaceae.Luteococcus	0.0			-
 Bacteria.Actinobacteria.Actinobacteria.Actinomycetales.Propionibacteriaceae.Microlunatus	0.0			-
 Bacteria.Actinobacteria.Actinobacteria.Actinomycetales.Propionibacteriaceae.Micropruina	0.0			-
-Bacteria.Actinobacteria.Actinobacteria.Actinomycetales.Propionibacteriaceae.Propionibacterium	0.0	High_O2	-0.6228166562378926	1.0342281992498534e-09
+Bacteria.Actinobacteria.Actinobacteria.Actinomycetales.Propionibacteriaceae.Propionibacterium	0.0			1.0342281992498534e-09
 Bacteria.Actinobacteria.Actinobacteria.Actinomycetales.Propionibacteriaceae.Propionicicella	0.0			-
 Bacteria.Actinobacteria.Actinobacteria.Actinomycetales.Propionibacteriaceae.Propioniferax	0.0			-
 Bacteria.Actinobacteria.Actinobacteria.Actinomycetales.Propionibacteriaceae.Propionimicrobium	0.0			-
@@ -196,18 +196,18 @@ Bacteria.Actinobacteria.Actinobacteria.Thermoleophilales.Thermoleophilaceae.Ther
 Bacteria.Aquificae.Aquificae.Aquificales.Hydrogenothermaceae.Sulfurihydrogenibium	0.0			-
 Bacteria.BRC1.BRC1_genera_incertae_sedis	0.0			-
 Bacteria.Bacteria_incertae_sedis.Ktedonobacteria.Ktedonobacterales.Ktedonobacteraceae.Ktedonobacter	0.0			-
-Bacteria.Bacteroidetes	0.0	Low_O2	-0.49742188732313203	7.288825370808415e-07
+Bacteria.Bacteroidetes	0.0			7.288825370808415e-07
 Bacteria.Bacteroidetes.Bacteroidetes_incertae_sedis.Prolixibacter	0.0			-
-Bacteria.Bacteroidetes.Bacteroidia.Bacteroidales	0.0	Low_O2	-0.4975550324469256	8.733110661370889e-07
-Bacteria.Bacteroidetes.Bacteroidia.Bacteroidales.Bacteroidaceae.Bacteroides	0.0	Low_O2	-0.7041310503108273	3.0342939691410514e-07
+Bacteria.Bacteroidetes.Bacteroidia.Bacteroidales	0.0			8.733110661370889e-07
+Bacteria.Bacteroidetes.Bacteroidia.Bacteroidales.Bacteroidaceae.Bacteroides	0.0			3.0342939691410514e-07
 Bacteria.Bacteroidetes.Bacteroidia.Bacteroidales.Bacteroidales_incertae_sedis.Phocaeicola	0.0			-
-Bacteria.Bacteroidetes.Bacteroidia.Bacteroidales.Porphyromonadaceae	0.0	Low_O2	-1.3020542127996224	3.9831342107334656e-06
+Bacteria.Bacteroidetes.Bacteroidia.Bacteroidales.Porphyromonadaceae	0.0			3.9831342107334656e-06
 Bacteria.Bacteroidetes.Bacteroidia.Bacteroidales.Porphyromonadaceae.Barnesiella	0.0			-
 Bacteria.Bacteroidetes.Bacteroidia.Bacteroidales.Porphyromonadaceae.Butyricimonas	0.0			-
 Bacteria.Bacteroidetes.Bacteroidia.Bacteroidales.Porphyromonadaceae.Dysgonomonas	0.0			-
 Bacteria.Bacteroidetes.Bacteroidia.Bacteroidales.Porphyromonadaceae.Odoribacter	0.0			-
 Bacteria.Bacteroidetes.Bacteroidia.Bacteroidales.Porphyromonadaceae.Paludibacter	0.0			-
-Bacteria.Bacteroidetes.Bacteroidia.Bacteroidales.Porphyromonadaceae.Parabacteroides	0.0	Low_O2	-1.475909373020766	1.1878222932965181e-07
+Bacteria.Bacteroidetes.Bacteroidia.Bacteroidales.Porphyromonadaceae.Parabacteroides	0.0			1.1878222932965181e-07
 Bacteria.Bacteroidetes.Bacteroidia.Bacteroidales.Porphyromonadaceae.Porphyromonas	0.0			-
 Bacteria.Bacteroidetes.Bacteroidia.Bacteroidales.Porphyromonadaceae.Tannerella	0.0			-
 Bacteria.Bacteroidetes.Bacteroidia.Bacteroidales.Prevotellaceae	0.0			-
@@ -215,8 +215,8 @@ Bacteria.Bacteroidetes.Bacteroidia.Bacteroidales.Prevotellaceae.Hallella	0.0			-
 Bacteria.Bacteroidetes.Bacteroidia.Bacteroidales.Prevotellaceae.Paraprevotella	0.0			-
 Bacteria.Bacteroidetes.Bacteroidia.Bacteroidales.Prevotellaceae.Prevotella	0.0			-
 Bacteria.Bacteroidetes.Bacteroidia.Bacteroidales.Prevotellaceae.Xylanibacter	0.0			-
-Bacteria.Bacteroidetes.Bacteroidia.Bacteroidales.Rikenellaceae	0.0	Low_O2	-1.4539803354920238	6.002321098620196e-05
-Bacteria.Bacteroidetes.Bacteroidia.Bacteroidales.Rikenellaceae.Alistipes	0.0	Low_O2	-1.4952504072506616	7.352227930198622e-05
+Bacteria.Bacteroidetes.Bacteroidia.Bacteroidales.Rikenellaceae	0.0			6.002321098620196e-05
+Bacteria.Bacteroidetes.Bacteroidia.Bacteroidales.Rikenellaceae.Alistipes	0.0			7.352227930198622e-05
 Bacteria.Bacteroidetes.Bacteroidia.Bacteroidales.Rikenellaceae.Rikenella	0.0			-
 Bacteria.Bacteroidetes.Flavobacteria.Flavobacteriales	0.0			-
 Bacteria.Bacteroidetes.Flavobacteria.Flavobacteriales.Cryomorphaceae	0.0			-
@@ -312,9 +312,9 @@ Bacteria.Deinococcus_Thermus.Deinococci.Thermales.Thermaceae	0.0			-
 Bacteria.Deinococcus_Thermus.Deinococci.Thermales.Thermaceae.Meiothermus	0.0			-
 Bacteria.Deinococcus_Thermus.Deinococci.Thermales.Thermaceae.Thermus	0.0			-
 Bacteria.Fibrobacteres.Fibrobacteria.Fibrobacterales.Fibrobacteraceae.Fibrobacter	0.0			-
-Bacteria.Firmicutes	0.0	Mid_O2	-0.7209819057766914	0.0002549901313136027
-Bacteria.Firmicutes.Bacilli	0.0	Mid_O2	-0.6167462954512268	4.6312921475136566e-07
-Bacteria.Firmicutes.Bacilli.Bacillales	0.0	High_O2	-1.2136494870066807	1.7414301797091047e-08
+Bacteria.Firmicutes	0.0			0.0002549901313136027
+Bacteria.Firmicutes.Bacilli	0.0			4.6312921475136566e-07
+Bacteria.Firmicutes.Bacilli.Bacillales	0.0			1.7414301797091047e-08
 Bacteria.Firmicutes.Bacilli.Bacillales.Bacillaceae	0.0			-
 Bacteria.Firmicutes.Bacilli.Bacillales.Bacillaceae.Anoxybacillus	0.0			-
 Bacteria.Firmicutes.Bacilli.Bacillales.Bacillaceae.Bacillus	0.0			-
@@ -351,19 +351,19 @@ Bacteria.Firmicutes.Bacilli.Bacillales.Planococcaceae.Sporosarcina	0.0			-
 Bacteria.Firmicutes.Bacilli.Bacillales.Sporolactobacillaceae	0.0			-
 Bacteria.Firmicutes.Bacilli.Bacillales.Sporolactobacillaceae.Marinococcus	0.0			-
 Bacteria.Firmicutes.Bacilli.Bacillales.Sporolactobacillaceae.Tuberibacillus	0.0			-
-Bacteria.Firmicutes.Bacilli.Bacillales.Staphylococcaceae	0.0	High_O2	-1.224835245016184	1.761560782791117e-08
+Bacteria.Firmicutes.Bacilli.Bacillales.Staphylococcaceae	0.0			1.761560782791117e-08
 Bacteria.Firmicutes.Bacilli.Bacillales.Staphylococcaceae.Gemella	0.0			-
 Bacteria.Firmicutes.Bacilli.Bacillales.Staphylococcaceae.Jeotgalicoccus	0.0			-
 Bacteria.Firmicutes.Bacilli.Bacillales.Staphylococcaceae.Macrococcus	0.0			-
 Bacteria.Firmicutes.Bacilli.Bacillales.Staphylococcaceae.Nosocomiicoccus	0.0			-
 Bacteria.Firmicutes.Bacilli.Bacillales.Staphylococcaceae.Salinicoccus	0.0			-
-Bacteria.Firmicutes.Bacilli.Bacillales.Staphylococcaceae.Staphylococcus	0.0	High_O2	-1.2311680607318383	1.6109712621476881e-09
+Bacteria.Firmicutes.Bacilli.Bacillales.Staphylococcaceae.Staphylococcus	0.0			1.6109712621476881e-09
 Bacteria.Firmicutes.Bacilli.Bacillales.Thermoactinomycetaceae	0.0			-
 Bacteria.Firmicutes.Bacilli.Bacillales.Thermoactinomycetaceae.Laceyella	0.0			-
 Bacteria.Firmicutes.Bacilli.Bacillales.Thermoactinomycetaceae.Planifilum	0.0			-
 Bacteria.Firmicutes.Bacilli.Bacillales.Thermoactinomycetaceae.Shimazuella	0.0			-
 Bacteria.Firmicutes.Bacilli.Bacillales.Thermoactinomycetaceae.Thermoactinomyces	0.0			-
-Bacteria.Firmicutes.Bacilli.Lactobacillales	0.0	Mid_O2	-0.6220277986208227	5.8897479947988996e-08
+Bacteria.Firmicutes.Bacilli.Lactobacillales	0.0			5.8897479947988996e-08
 Bacteria.Firmicutes.Bacilli.Lactobacillales.Aerococcaceae	0.0			-
 Bacteria.Firmicutes.Bacilli.Lactobacillales.Aerococcaceae.Abiotrophia	0.0			-
 Bacteria.Firmicutes.Bacilli.Lactobacillales.Aerococcaceae.Aerococcus	0.0			-
@@ -400,8 +400,8 @@ Bacteria.Firmicutes.Bacilli.Lactobacillales.Streptococcaceae	0.0			-
 Bacteria.Firmicutes.Bacilli.Lactobacillales.Streptococcaceae.Lactococcus	0.0			-
 Bacteria.Firmicutes.Bacilli.Lactobacillales.Streptococcaceae.Lactovum	0.0			-
 Bacteria.Firmicutes.Bacilli.Lactobacillales.Streptococcaceae.Streptococcus	0.0			-
-Bacteria.Firmicutes.Clostridia	0.0	Low_O2	-0.9513605995722715	2.115881682786302e-06
-Bacteria.Firmicutes.Clostridia.Clostridiales	0.0	Low_O2	-0.956423666834519	2.115881682786302e-06
+Bacteria.Firmicutes.Clostridia	0.0			2.115881682786302e-06
+Bacteria.Firmicutes.Clostridia.Clostridiales	0.0			2.115881682786302e-06
 Bacteria.Firmicutes.Clostridia.Clostridiales.Clostridiaceae	0.0			-
 Bacteria.Firmicutes.Clostridia.Clostridiales.Clostridiaceae.Alkaliphilus	0.0			-
 Bacteria.Firmicutes.Clostridia.Clostridiales.Clostridiaceae.Anaerobacter	0.0			-
@@ -415,18 +415,18 @@ Bacteria.Firmicutes.Clostridia.Clostridiales.Eubacteriaceae.Garciella	0.0			-
 Bacteria.Firmicutes.Clostridia.Clostridiales.Eubacteriaceae.Pseudoramibacter	0.0			-
 Bacteria.Firmicutes.Clostridia.Clostridiales.Gracilibacteraceae	0.0			-
 Bacteria.Firmicutes.Clostridia.Clostridiales.Gracilibacteraceae.Gracilibacter	0.0			-
-Bacteria.Firmicutes.Clostridia.Clostridiales.Incertae_Sedis_XI	0.0	High_O2	-2.0446286120171195	1.6100047886068535e-05
+Bacteria.Firmicutes.Clostridia.Clostridiales.Incertae_Sedis_XI	0.0			-
 Bacteria.Firmicutes.Clostridia.Clostridiales.Incertae_Sedis_XII	0.0			-
 Bacteria.Firmicutes.Clostridia.Clostridiales.Incertae_Sedis_XIII	0.0			-
 Bacteria.Firmicutes.Clostridia.Clostridiales.Incertae_Sedis_XIII.Anaerovorax	0.0			-
 Bacteria.Firmicutes.Clostridia.Clostridiales.Incertae_Sedis_XIII.Mogibacterium	0.0			-
 Bacteria.Firmicutes.Clostridia.Clostridiales.Incertae_Sedis_XII.Fusibacter	0.0			-
-Bacteria.Firmicutes.Clostridia.Clostridiales.Incertae_Sedis_XIV	0.0	Low_O2	-2.6322742403956183	7.0167683690487216e-06
+Bacteria.Firmicutes.Clostridia.Clostridiales.Incertae_Sedis_XIV	0.0	Low_O2	-2.6329991203698166	7.0167683690487216e-06
 Bacteria.Firmicutes.Clostridia.Clostridiales.Incertae_Sedis_XIV.Anaerovirgula	0.0			-
-Bacteria.Firmicutes.Clostridia.Clostridiales.Incertae_Sedis_XIV.Blautia	0.0	Low_O2	-2.6393891095246516	4.311236886963492e-06
+Bacteria.Firmicutes.Clostridia.Clostridiales.Incertae_Sedis_XIV.Blautia	0.0	Low_O2	-2.642178472861276	4.311236886963492e-06
 Bacteria.Firmicutes.Clostridia.Clostridiales.Incertae_Sedis_XIV.Howardella	0.0			-
 Bacteria.Firmicutes.Clostridia.Clostridiales.Incertae_Sedis_XIV.Proteocatella	0.0			-
-Bacteria.Firmicutes.Clostridia.Clostridiales.Incertae_Sedis_XI.Anaerococcus	0.0	High_O2	-2.432930640741485	3.6573700523791524e-06
+Bacteria.Firmicutes.Clostridia.Clostridiales.Incertae_Sedis_XI.Anaerococcus	0.0			-
 Bacteria.Firmicutes.Clostridia.Clostridiales.Incertae_Sedis_XI.Anaerosphaera	0.0			-
 Bacteria.Firmicutes.Clostridia.Clostridiales.Incertae_Sedis_XI.Finegoldia	0.0			-
 Bacteria.Firmicutes.Clostridia.Clostridiales.Incertae_Sedis_XI.Gallicola	0.0			-
@@ -438,14 +438,14 @@ Bacteria.Firmicutes.Clostridia.Clostridiales.Incertae_Sedis_XI.Tepidimicrobium	0
 Bacteria.Firmicutes.Clostridia.Clostridiales.Incertae_Sedis_XI.Tissierella	0.0			-
 Bacteria.Firmicutes.Clostridia.Clostridiales.Incertae_Sedis_XVIII.Symbiobacterium	0.0			-
 Bacteria.Firmicutes.Clostridia.Clostridiales.Incertae_Sedis_XVII.Thermaerobacter	0.0			-
-Bacteria.Firmicutes.Clostridia.Clostridiales.Lachnospiraceae	0.0	Low_O2	-1.6203832719030238	1.8632849821132932e-05
+Bacteria.Firmicutes.Clostridia.Clostridiales.Lachnospiraceae	0.0			1.8632849821132932e-05
 Bacteria.Firmicutes.Clostridia.Clostridiales.Lachnospiraceae.Acetitomaculum	0.0			-
 Bacteria.Firmicutes.Clostridia.Clostridiales.Lachnospiraceae.Anaerosporobacter	0.0			-
-Bacteria.Firmicutes.Clostridia.Clostridiales.Lachnospiraceae.Anaerostipes	0.0	Low_O2	-3.234887609850357	0.0016069110289558396
+Bacteria.Firmicutes.Clostridia.Clostridiales.Lachnospiraceae.Anaerostipes	0.0	Low_O2	-3.153791766029267	0.0016069110289558396
 Bacteria.Firmicutes.Clostridia.Clostridiales.Lachnospiraceae.Butyrivibrio	0.0			-
 Bacteria.Firmicutes.Clostridia.Clostridiales.Lachnospiraceae.Catonella	0.0			-
-Bacteria.Firmicutes.Clostridia.Clostridiales.Lachnospiraceae.Coprococcus	0.0	Low_O2	-2.4662241732386088	6.427852030550064e-06
-Bacteria.Firmicutes.Clostridia.Clostridiales.Lachnospiraceae.Dorea	0.0	Low_O2	-2.895196623497682	2.3660860949254326e-05
+Bacteria.Firmicutes.Clostridia.Clostridiales.Lachnospiraceae.Coprococcus	0.0	Low_O2	-2.464292254431676	6.427852030550064e-06
+Bacteria.Firmicutes.Clostridia.Clostridiales.Lachnospiraceae.Dorea	0.0	Low_O2	-2.9306671893883314	2.3660860949254326e-05
 Bacteria.Firmicutes.Clostridia.Clostridiales.Lachnospiraceae.Hespellia	0.0			-
 Bacteria.Firmicutes.Clostridia.Clostridiales.Lachnospiraceae.Johnsonella	0.0			-
 Bacteria.Firmicutes.Clostridia.Clostridiales.Lachnospiraceae.Lachnobacterium	0.0			-
@@ -455,7 +455,7 @@ Bacteria.Firmicutes.Clostridia.Clostridiales.Lachnospiraceae.Oribacterium	0.0			
 Bacteria.Firmicutes.Clostridia.Clostridiales.Lachnospiraceae.Parasporobacterium	0.0			-
 Bacteria.Firmicutes.Clostridia.Clostridiales.Lachnospiraceae.Pseudobutyrivibrio	0.0			-
 Bacteria.Firmicutes.Clostridia.Clostridiales.Lachnospiraceae.Robinsoniella	0.0			-
-Bacteria.Firmicutes.Clostridia.Clostridiales.Lachnospiraceae.Roseburia	0.0	Low_O2	-2.079161179001624	8.358698772474532e-06
+Bacteria.Firmicutes.Clostridia.Clostridiales.Lachnospiraceae.Roseburia	0.0	Low_O2	-2.0786419680177026	8.358698772474532e-06
 Bacteria.Firmicutes.Clostridia.Clostridiales.Lachnospiraceae.Shuttleworthia	0.0			-
 Bacteria.Firmicutes.Clostridia.Clostridiales.Lachnospiraceae.Syntrophococcus	0.0			-
 Bacteria.Firmicutes.Clostridia.Clostridiales.Peptococcaceae	0.0			-
@@ -468,22 +468,22 @@ Bacteria.Firmicutes.Clostridia.Clostridiales.Peptostreptococcaceae	0.0			-
 Bacteria.Firmicutes.Clostridia.Clostridiales.Peptostreptococcaceae.Filifactor	0.0			-
 Bacteria.Firmicutes.Clostridia.Clostridiales.Peptostreptococcaceae.Peptostreptococcus	0.0			-
 Bacteria.Firmicutes.Clostridia.Clostridiales.Peptostreptococcaceae.Sporacetigenium	0.0			-
-Bacteria.Firmicutes.Clostridia.Clostridiales.Ruminococcaceae	0.0	Low_O2	-1.2058039294999252	2.9130468096204774e-07
+Bacteria.Firmicutes.Clostridia.Clostridiales.Ruminococcaceae	0.0			2.9130468096204774e-07
 Bacteria.Firmicutes.Clostridia.Clostridiales.Ruminococcaceae.Acetanaerobacterium	0.0			-
 Bacteria.Firmicutes.Clostridia.Clostridiales.Ruminococcaceae.Acetivibrio	0.0			-
 Bacteria.Firmicutes.Clostridia.Clostridiales.Ruminococcaceae.Anaerofilum	0.0			-
-Bacteria.Firmicutes.Clostridia.Clostridiales.Ruminococcaceae.Anaerotruncus	0.0	Low_O2	-3.3249636209337536	1.178631519694314e-05
-Bacteria.Firmicutes.Clostridia.Clostridiales.Ruminococcaceae.Butyricicoccus	0.0	Low_O2	-3.1247276074365296	7.555993197687942e-05
+Bacteria.Firmicutes.Clostridia.Clostridiales.Ruminococcaceae.Anaerotruncus	0.0	Low_O2	-3.3574205748786365	1.178631519694314e-05
+Bacteria.Firmicutes.Clostridia.Clostridiales.Ruminococcaceae.Butyricicoccus	0.0	Low_O2	-3.174146800754981	7.555993197687942e-05
 Bacteria.Firmicutes.Clostridia.Clostridiales.Ruminococcaceae.Ethanoligenens	0.0			-
-Bacteria.Firmicutes.Clostridia.Clostridiales.Ruminococcaceae.Faecalibacterium	0.0	Low_O2	-1.530721246646428	5.514502087128153e-07
+Bacteria.Firmicutes.Clostridia.Clostridiales.Ruminococcaceae.Faecalibacterium	0.0			5.514502087128153e-07
 Bacteria.Firmicutes.Clostridia.Clostridiales.Ruminococcaceae.Fastidiosipila	0.0			-
 Bacteria.Firmicutes.Clostridia.Clostridiales.Ruminococcaceae.Hydrogenoanaerobacterium	0.0			-
 Bacteria.Firmicutes.Clostridia.Clostridiales.Ruminococcaceae.Lactonifactor	0.0			-
-Bacteria.Firmicutes.Clostridia.Clostridiales.Ruminococcaceae.Oscillibacter	0.0	Low_O2	-1.9860256004036727	2.7778559499919322e-06
+Bacteria.Firmicutes.Clostridia.Clostridiales.Ruminococcaceae.Oscillibacter	0.0			2.7778559499919322e-06
 Bacteria.Firmicutes.Clostridia.Clostridiales.Ruminococcaceae.Papillibacter	0.0			-
-Bacteria.Firmicutes.Clostridia.Clostridiales.Ruminococcaceae.Ruminococcus	0.0	Low_O2	-2.0387327330166776	0.0004263458271268259
-Bacteria.Firmicutes.Clostridia.Clostridiales.Ruminococcaceae.Sporobacter	0.0	Low_O2	-3.2426805704410526	0.003121783988607698
-Bacteria.Firmicutes.Clostridia.Clostridiales.Ruminococcaceae.Subdoligranulum	0.0	Low_O2	-2.679063106239405	1.1030238193532856e-05
+Bacteria.Firmicutes.Clostridia.Clostridiales.Ruminococcaceae.Ruminococcus	0.0	Low_O2	-2.0397449392881364	0.0004263458271268259
+Bacteria.Firmicutes.Clostridia.Clostridiales.Ruminococcaceae.Sporobacter	0.0	Low_O2	-3.261993268066003	0.003121783988607698
+Bacteria.Firmicutes.Clostridia.Clostridiales.Ruminococcaceae.Subdoligranulum	0.0	Low_O2	-2.6978813989276897	1.1030238193532856e-05
 Bacteria.Firmicutes.Clostridia.Clostridiales.Syntrophomonadaceae	0.0			-
 Bacteria.Firmicutes.Clostridia.Clostridiales.Veillonellaceae	0.0			-
 Bacteria.Firmicutes.Clostridia.Clostridiales.Veillonellaceae.Acidaminococcus	0.0			-
@@ -498,7 +498,7 @@ Bacteria.Firmicutes.Clostridia.Clostridiales.Veillonellaceae.Megamonas	0.0			-
 Bacteria.Firmicutes.Clostridia.Clostridiales.Veillonellaceae.Megasphaera	0.0			-
 Bacteria.Firmicutes.Clostridia.Clostridiales.Veillonellaceae.Mitsuokella	0.0			-
 Bacteria.Firmicutes.Clostridia.Clostridiales.Veillonellaceae.Pectinatus	0.0			-
-Bacteria.Firmicutes.Clostridia.Clostridiales.Veillonellaceae.Phascolarctobacterium	0.0	Low_O2	-2.3001537895845283	0.005299912674522779
+Bacteria.Firmicutes.Clostridia.Clostridiales.Veillonellaceae.Phascolarctobacterium	0.0	Low_O2	-2.300401530803468	0.005299912674522779
 Bacteria.Firmicutes.Clostridia.Clostridiales.Veillonellaceae.Schwartzia	0.0			-
 Bacteria.Firmicutes.Clostridia.Clostridiales.Veillonellaceae.Selenomonas	0.0			-
 Bacteria.Firmicutes.Clostridia.Clostridiales.Veillonellaceae.Sporomusa	0.0			-
@@ -510,11 +510,11 @@ Bacteria.Firmicutes.Clostridia.Thermoanaerobacterales.Thermoanaerobacteraceae	0.
 Bacteria.Firmicutes.Clostridia.Thermoanaerobacterales.Thermoanaerobacteraceae.Caldicellulosiruptor	0.0			-
 Bacteria.Firmicutes.Clostridia.Thermoanaerobacterales.Thermoanaerobacteraceae.Gelria	0.0			-
 Bacteria.Firmicutes.Clostridia.Thermoanaerobacterales.Thermoanaerobacteraceae.Thermoanaerobacterium	0.0			-
-Bacteria.Firmicutes.Erysipelotrichi.Erysipelotrichales.Erysipelotrichaceae	0.0	Low_O2	-3.0384159347523956	1.362102362704755e-05
+Bacteria.Firmicutes.Erysipelotrichi.Erysipelotrichales.Erysipelotrichaceae	0.0	Low_O2	-3.0337972953981764	1.362102362704755e-05
 Bacteria.Firmicutes.Erysipelotrichi.Erysipelotrichales.Erysipelotrichaceae.Allobaculum	0.0			-
 Bacteria.Firmicutes.Erysipelotrichi.Erysipelotrichales.Erysipelotrichaceae.Bulleidia	0.0			-
 Bacteria.Firmicutes.Erysipelotrichi.Erysipelotrichales.Erysipelotrichaceae.Catenibacterium	0.0			-
-Bacteria.Firmicutes.Erysipelotrichi.Erysipelotrichales.Erysipelotrichaceae.Coprobacillus	0.0	Low_O2	-3.1146159486665823	5.666002862012607e-05
+Bacteria.Firmicutes.Erysipelotrichi.Erysipelotrichales.Erysipelotrichaceae.Coprobacillus	0.0	Low_O2	-3.2443727723687505	5.666002862012607e-05
 Bacteria.Firmicutes.Erysipelotrichi.Erysipelotrichales.Erysipelotrichaceae.Erysipelothrix	0.0			-
 Bacteria.Firmicutes.Erysipelotrichi.Erysipelotrichales.Erysipelotrichaceae.Holdemania	0.0			-
 Bacteria.Firmicutes.Erysipelotrichi.Erysipelotrichales.Erysipelotrichaceae.Sharpea	0.0			-
@@ -647,8 +647,8 @@ Bacteria.Proteobacteria.Alphaproteobacteria.Sphingomonadales.Sphingomonadaceae.S
 Bacteria.Proteobacteria.Alphaproteobacteria.Sphingomonadales.Sphingomonadaceae.Sphingopyxis	0.0			-
 Bacteria.Proteobacteria.Alphaproteobacteria.Sphingomonadales.Sphingomonadaceae.Sphingosinicella	0.0			-
 Bacteria.Proteobacteria.Betaproteobacteria	0.0			-
-Bacteria.Proteobacteria.Betaproteobacteria.Burkholderiales	0.0	Low_O2	-2.4230129873991726	0.0020682778778297983
-Bacteria.Proteobacteria.Betaproteobacteria.Burkholderiales.Alcaligenaceae	0.0	Low_O2	-2.3670072311545645	3.2838921863550204e-05
+Bacteria.Proteobacteria.Betaproteobacteria.Burkholderiales	0.0	Low_O2	-2.423918334885708	0.0020682778778297983
+Bacteria.Proteobacteria.Betaproteobacteria.Burkholderiales.Alcaligenaceae	0.0	Low_O2	-2.3693548282254	3.2838921863550204e-05
 Bacteria.Proteobacteria.Betaproteobacteria.Burkholderiales.Alcaligenaceae.Achromobacter	0.0			-
 Bacteria.Proteobacteria.Betaproteobacteria.Burkholderiales.Alcaligenaceae.Alcaligenes	0.0			-
 Bacteria.Proteobacteria.Betaproteobacteria.Burkholderiales.Alcaligenaceae.Azohydromonas	0.0			-
@@ -656,7 +656,7 @@ Bacteria.Proteobacteria.Betaproteobacteria.Burkholderiales.Alcaligenaceae.Bordet
 Bacteria.Proteobacteria.Betaproteobacteria.Burkholderiales.Alcaligenaceae.Castellaniella	0.0			-
 Bacteria.Proteobacteria.Betaproteobacteria.Burkholderiales.Alcaligenaceae.Derxia	0.0			-
 Bacteria.Proteobacteria.Betaproteobacteria.Burkholderiales.Alcaligenaceae.Oligella	0.0			-
-Bacteria.Proteobacteria.Betaproteobacteria.Burkholderiales.Alcaligenaceae.Parasutterella	0.0	Low_O2	-2.4433595104381203	0.0004807035777694964
+Bacteria.Proteobacteria.Betaproteobacteria.Burkholderiales.Alcaligenaceae.Parasutterella	0.0	Low_O2	-2.44209893043378	0.0004807035777694964
 Bacteria.Proteobacteria.Betaproteobacteria.Burkholderiales.Alcaligenaceae.Pigmentiphaga	0.0			-
 Bacteria.Proteobacteria.Betaproteobacteria.Burkholderiales.Alcaligenaceae.Sutterella	0.0			-
 Bacteria.Proteobacteria.Betaproteobacteria.Burkholderiales.Burkholderiaceae	0.0			-
@@ -851,7 +851,7 @@ Bacteria.Proteobacteria.Gammaproteobacteria.Pasteurellales.Pasteurellaceae.Mannh
 Bacteria.Proteobacteria.Gammaproteobacteria.Pasteurellales.Pasteurellaceae.Nicoletella	0.0			-
 Bacteria.Proteobacteria.Gammaproteobacteria.Pasteurellales.Pasteurellaceae.Pasteurella	0.0			-
 Bacteria.Proteobacteria.Gammaproteobacteria.Pasteurellales.Pasteurellaceae.Phocoenobacter	0.0			-
-Bacteria.Proteobacteria.Gammaproteobacteria.Pseudomonadales	0.0	High_O2	-2.00692107378553	1.0773847018107676e-06
+Bacteria.Proteobacteria.Gammaproteobacteria.Pseudomonadales	0.0	High_O2	-2.0069325307812007	1.0773847018107676e-06
 Bacteria.Proteobacteria.Gammaproteobacteria.Pseudomonadales.Moraxellaceae	0.0			-
 Bacteria.Proteobacteria.Gammaproteobacteria.Pseudomonadales.Moraxellaceae.Acinetobacter	0.0			-
 Bacteria.Proteobacteria.Gammaproteobacteria.Pseudomonadales.Moraxellaceae.Alkanindiges	0.0			-
@@ -944,7 +944,7 @@ Bacteria.Acidobacteria.Acidobacteria_Gp6	0.0			-
 Bacteria.Acidobacteria.Acidobacteria_Gp7	0.0			-
 Bacteria.Acidobacteria.Acidobacteria_Gp9	0.0			-
 Bacteria.Acidobacteria.Holophagae.Holophagales	0.0			-
-Bacteria.Actinobacteria	0.42661033489098726	High_O2	0.12115374915876292	4.148228689669985e-09
+Bacteria.Actinobacteria	0.42661033489098726			4.148228689669985e-09
 Bacteria.Actinobacteria.Actinobacteria.Acidimicrobiales.Iamiaceae	0.0			-
 Bacteria.Actinobacteria.Actinobacteria.Acidimicrobidae_incertae_sedis	0.0			-
 Bacteria.Actinobacteria.Actinobacteria.Actinomycetales.Brevibacteriaceae	0.0			-
@@ -977,8 +977,8 @@ Bacteria.Bacteria_incertae_sedis.Ktedonobacteria	0.0			-
 Bacteria.Bacteria_incertae_sedis.Ktedonobacteria.Ktedonobacterales	0.0			-
 Bacteria.Bacteria_incertae_sedis.Ktedonobacteria.Ktedonobacterales.Ktedonobacteraceae	0.0			-
 Bacteria.Bacteroidetes.Bacteroidetes_incertae_sedis	0.0			-
-Bacteria.Bacteroidetes.Bacteroidia	0.20102741891207246	Low_O2	-0.12514447278298924	6.573396801716949e-07
-Bacteria.Bacteroidetes.Bacteroidia.Bacteroidales.Bacteroidaceae	0.0	Low_O2	-0.7041310503108273	3.0342939691410514e-07
+Bacteria.Bacteroidetes.Bacteroidia	0.20102741891207246			6.573396801716949e-07
+Bacteria.Bacteroidetes.Bacteroidia.Bacteroidales.Bacteroidaceae	0.0			3.0342939691410514e-07
 Bacteria.Bacteroidetes.Bacteroidia.Bacteroidales.Bacteroidales_incertae_sedis	0.0			-
 Bacteria.Bacteroidetes.Flavobacteria	0.0			-
 Bacteria.Bacteroidetes.Sphingobacteria	0.0			-
@@ -1016,8 +1016,8 @@ Bacteria.Firmicutes.Bacilli.Bacillales.Caryophanaceae	0.0			-
 Bacteria.Firmicutes.Clostridia.Clostridiales.Incertae_Sedis_XVIII	0.0			-
 Bacteria.Firmicutes.Clostridia.Clostridiales.Incertae_Sedis_XVII	0.0			-
 Bacteria.Firmicutes.Clostridia.Thermoanaerobacterales	0.0			-
-Bacteria.Firmicutes.Erysipelotrichi	0.0	Low_O2	-2.8297961512761627	1.9696591941788733e-05
-Bacteria.Firmicutes.Erysipelotrichi.Erysipelotrichales	0.0	Low_O2	-2.8297961512761627	1.9696591941788733e-05
+Bacteria.Firmicutes.Erysipelotrichi	0.0	Low_O2	-2.8298625538397313	1.9696591941788733e-05
+Bacteria.Firmicutes.Erysipelotrichi.Erysipelotrichales	0.0	Low_O2	-2.8298625538397313	1.9696591941788733e-05
 Bacteria.Fusobacteria	0.0			-
 Bacteria.Fusobacteria.Fusobacteria	0.0			-
 Bacteria.Gemmatimonadetes	0.0			-
